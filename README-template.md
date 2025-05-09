@@ -46,9 +46,13 @@ Users should be able to:
 ### Built with
 
 -Semantic HTML5 markup
+
 -CSS custom properties
+
 -Flexbox for layout
+
 -Mobile-first CSS workflow
+
 -Plain JavaScript (No frameworks used)
 
 ### What I learned
@@ -81,8 +85,11 @@ In the future, I plan to:
 ### Useful resources
 
 -Google 
+
 -Frontend Mentor
+
 -W3Schools
+
 -Geeks for Geeks
 
 
