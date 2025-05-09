@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Contact form
 
 ![Design preview for the Contact form coding challenge](./design/desktop-preview.jpg)
@@ -98,3 +99,6 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# Contact-Form
+>>>>>>> a5cf8fd8bba58abbe6ecae5a87af529d66b362bf
