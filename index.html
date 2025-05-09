@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor - Contact form</title>
+</head>
+<body>
+   <form id="contact-form"> 
+    <h1>Contact Us</h1>
+
+    <label for="firstName">First Name *</label><br>
+    <input type="text" id="firstName" name="firstName">
+    <div class="error" id="firstNameError"></div><br><br>
+
+    <label for="lastName">Last Name *</label><br>
+    <input type="text" id="lastName" name="lastName">
+    <div class="error" id="lastNameError"></div><br><br>
+
+    <label for="email">Email Address *</label><br>
+    <input type="email" id="email" name="email">
+    <div class="error" id="emailError"></div><br><br>
+
+    <label for="query">Query Type *</label><br>
+    <label class="radio-box">
+      <input type="radio" id="general" name="query" value="General Enquiry"> General Enquiry
+    </label>
+    <label class="radio-box">
+      <input type="radio" id="support" name="query" value="Support Request"> Support Request
+    </label>
+    <div class="error" id="queryError"></div><br><br>
+
+    <label for="message">Message *</label><br>
+    <textarea id="message" name="message"></textarea>
+    <div class="error" id="messageError"></div><br><br>
+
+    <input type="checkbox" id="consent" name="consent" >
+    <label for="consent">I consent to being contacted by the team</label><br><br>
+    <div class="error" id="consentError"></div><br><br>
+
+    <button type="submit">Submit</button><br><br> 
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="#">Immaculate Kimani</a>.
+    </div>
+
+    <div class="success-message" id="successMessage">
+      <img src="assets/images/icon-success-check.svg" alt="Success" class="tick-icon">
+      <strong>Message Sent!</strong><br>
+      Thank you for submitting the form. We will get in touch with you soon!
+    </div>
+    </form>
+
+   <script src="script.js"></script>
+</body>
+</html>

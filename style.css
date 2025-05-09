@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(148, 38%, 91%);
+    color: hsl(187, 24%, 22%);
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+form {
+    background-color: white;
+    padding: 32px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+    text-align: block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: hsl(169, 82%, 27%);
+}
+
+label {
+    display: inline-flex;
+    font-weight: 400;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: auto;
+    height: 100%;
+    padding: 10px 14px;
+    border: 1px solid hsl(108, 71%, 67%);
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: hsl(169, 82%, 27%);
+    outline: none;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .radio-box {
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 4px;
+    padding: 16px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+  
+  .radio-box input[type="radio"] {
+    accent-color: hsl(169, 82%, 27%);
+    margin: 0;
+  }  
+
+  .radio-box.selected {
+    border-color: green;
+    background-color: hsl(148, 38%, 91%);
+  }
+textarea {
+    height: 100px;
+    width: 100%;
+    resize: vertical;
+}
+
+textarea:focus {
+    border-color: hsl(169, 82%, 27%);
+    outline: none;
+  }
+  
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(169, 82%, 27%);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;    
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: hsl(169, 82%, 22%);
+}
+
+.attribution {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 14.4px;
+    color: hsl(187, 24%, 22%);
+}
+
+.attribution a {
+    color: hsl(169, 82%, 27%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: hsl(0, 66%, 54%);
+    font-size: 12px;
+    display: block;
+  }
+
+  input.input-error,
+  textarea.input-error,
+  select.input-error {
+      border: 2px solid hsl(0, 66%, 54%);
+}
+
+.success-message {
+    background-color: rgb(24, 54, 24);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    font-family: Arial, sans-serif;
+    width: 50%; 
+    max-width: 600px; 
+    margin: 10px auto; 
+    text-align: center;
+    position: fixed; 
+    top: 10px; 
+    left: 0; 
+    right: 0;
+    display: none;
+  }
+  
+  
+
+
+@media (max-width: 375px) {
+    form {
+        padding: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
