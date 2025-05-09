@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/KimaniImmaculate/Contact-Form)
+- Live Site URL: [Netlify](https://mycontactformchallenge.netlify.app/)
 
 ## My process
 
